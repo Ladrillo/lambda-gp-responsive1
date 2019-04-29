@@ -1,3 +1,17 @@
+/* desktop first design
+drawings for desktop
+most of css for desktop
+overrides with media queries
+for progressively smaller screens
+max-width
+*/
+
+/* mobile first desing
+we have designs for all devices
+most of our css is for mobile
+overrides for progressively larger screens
+min-width
+*/
 .container {
   margin: 0 auto;
   max-width: 800px;
