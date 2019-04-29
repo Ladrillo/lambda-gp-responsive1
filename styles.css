@@ -12,6 +12,14 @@ most of our css is for mobile
 overrides for progressively larger screens
 min-width
 */
+:root {
+  font-size: 16px;
+}
+@media(max-width: 550px) {
+  :root {
+    font-size: 24px;
+  }
+}
 .container {
   margin: 0 auto;
   max-width: 800px;
@@ -30,14 +38,14 @@ min-width
   }
 }
 .box {
-  padding: 8px;
+  padding: 1rem;
 }
 .box-a {
   background-color: antiquewhite;
 }
 .box-b {
   background-color: lightgrey;
-  border: 4px dashed black;
+  border: 0.25rem dashed black;
 }
 .box-c {
   background-color: beige
@@ -75,4 +83,5 @@ article p:nth-of-type(1) {
 }
 article p:nth-of-type(2) {
   color: blue;
+  line-height: 1.5;
 }
