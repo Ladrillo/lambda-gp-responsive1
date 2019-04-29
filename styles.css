@@ -54,7 +54,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 8px;
+  padding: 0.5rem;
   background-color: lightcoral;
   color: white;
 }
@@ -70,13 +70,13 @@ h1, h3 {
   font-weight: bold;
 }
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 p {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 article p:nth-of-type(1) {
   color: green;
