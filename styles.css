@@ -14,5 +14,15 @@
 
 }
 .box-c {
+
+}
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+p:nth-of-type(1) {
+
+}
+p:nth-of-type(2) {
   
 }
