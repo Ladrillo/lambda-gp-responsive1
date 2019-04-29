@@ -2,10 +2,10 @@
 
 }
 .boxes {
-
+  display: flex;
 }
 .box {
-
+  padding: 8px;
 }
 .box-a{
 
