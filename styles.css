@@ -1,41 +1,12 @@
-/* desktop first design
-drawings for desktop
-most of css for desktop
-overrides with media queries
-for progressively smaller screens
-max-width
-*/
-
-/* mobile first desing
-we have designs for all devices
-most of our css is for mobile
-overrides for progressively larger screens
-min-width
-*/
 :root {
   font-size: 16px;
 }
-@media(max-width: 550px) {
-  :root {
-    font-size: 24px;
-  }
-}
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 750px;
 }
 .boxes {
   display: flex;
-}
-@media(max-width: 750px) {
-  .boxes {
-    flex-direction: row-reverse;
-  }
-}
-@media(max-width: 550px) {
-  .boxes {
-    flex-direction: column;
-  }
 }
 .box {
   padding: 1rem;
@@ -57,11 +28,6 @@ header {
   padding: 0.5rem;
   background-color: lightcoral;
   color: white;
-}
-@media(max-width: 550px) {
-  header {
-    flex-direction: column;
-  }
 }
 a {
   color: inherit;
