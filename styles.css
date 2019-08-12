@@ -1,3 +1,22 @@
+/* this css applies from infinity to 501px */
+
+/* for 500px and under, the articles should stack */
+
+/* the blue text should not show at all */
+
+/* @media (condition) {
+  selector {
+
+  }
+} */
+
+/* HEADER PROJECT */
+
+/* the current css is for infinity -> 900px */
+
+/* 900 -> 600px have the links turn yellow or take up more width*/
+
+/* 0 -> 600px the links should be stacking underneath the h1 */
 :root {
   font-size: 16px;
 }
@@ -9,6 +28,7 @@
 
 .boxes {
   display: flex;
+  flex-direction: column;
 }
 
 .box {
