@@ -40,7 +40,11 @@ is the css to make smaller screens look great
   display: flex;
   flex-direction: column;
 }
-
+@media (min-width: 600px) {
+  .boxes {
+    flex-direction: row;
+  }
+}
 .box {
   padding: 1rem;
 }
