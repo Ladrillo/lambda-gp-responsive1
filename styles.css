@@ -1,22 +1,32 @@
-/* this css applies from infinity to 501px */
+/* DESKTOP FIRST
 
-/* for 500px and under, the articles should stack */
+the css not wrapped in the media queries account for large screens
 
-/* the blue text should not show at all */
+@media (max-width: 1200px) {
 
-/* @media (condition) {
-  selector {
+}
+@media (max-width: 900px) {
 
-  }
+}
+@media (max-width: 600px) {
+
 } */
 
-/* HEADER PROJECT */
+/* MOBILE FIRST
 
-/* the current css is for infinity -> 900px */
+the default css, not wrapped in media queries
+is the css to make smaller screens look great
 
-/* 900 -> 600px have the links turn yellow or take up more width*/
+@media (min-width: 600px) {
 
-/* 0 -> 600px the links should be stacking underneath the h1 */
+}
+@media (min-width: 900px) {
+
+}
+@media (min-width: 1200px) {
+
+} */
+
 :root {
   font-size: 16px;
 }
